@@ -17,16 +17,16 @@ Instead, knowledge is scattered across:
 
 This leads to:
 
-Incorrect inventory decisions
-Production delays
-Profit leakage
-Machine failures
-Human errors
-Lost operational knowledge
+-Incorrect inventory decisions
+-Production delays
+-Profit leakage
+-Machine failures
+-Human errors
+-Lost operational knowledge
 
 Shadow SOP uses Gemma 4's reasoning capabilities to reconstruct the actual workflow—not the ideal one—and automatically generates a structured Standard Operating Procedure (SOP), identifies operational bottlenecks, and recommends automation opportunities.
 
-🎥 Demo
+# 🎥 Demo
 
 (Replace these placeholders after taking screenshots.)
 
@@ -34,7 +34,7 @@ Landing	Upload	Dashboard
 
 	
 	
-✨ Features
+# ✨ Features
 
 ✅ Multi-document reasoning
 
@@ -58,7 +58,7 @@ Landing	Upload	Dashboard
 
 ✅ Modern animated UI
 
-💡 The Idea
+# 💡 The Idea
 
 Instead of asking a business:
 
@@ -90,7 +90,7 @@ Workflow Timeline
       ├── SOP Generation
       ├── Bottleneck Detection
       └── Automation Suggestions
-🏢 Example Scenario
+# 🏢 Example Scenario
 
 A custom apparel business receives an urgent order for 50 hoodies.
 
@@ -136,7 +136,7 @@ Multilingual support
 
 Rather than summarizing documents individually, Gemma connects information across multiple sources to infer the real sequence of business events.
 
-⚙️ Tech Stack
+# ⚙️ Tech Stack
 Technology	Purpose
 HTML5	Interface
 CSS3	Styling
@@ -144,7 +144,7 @@ JavaScript	Logic
 OGL	WebGL Background
 Kaggle Notebook	Deployment
 Google Gemma 4	AI Reasoning
-📂 Project Structure
+# 📂 Project Structure
 Shadow-SOP
 │
 ├── notebook.ipynb
@@ -154,7 +154,7 @@ Shadow-SOP
 │   ├── upload.png
 │   ├── dashboard.png
 │   └── banner.png
-🎯 Future Roadmap
+# 🎯 Future Roadmap
 📂 Real file upload support
 🎙 Voice-to-text pipeline
 📄 OCR invoice extraction
@@ -163,7 +163,7 @@ Shadow-SOP
 📊 Analytics dashboard
 🤖 ERP integrations
 🔔 Real-time monitoring
-👩‍💻 Author
+### 👩‍💻 Author
 
 Sneha Sahu
 
