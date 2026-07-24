@@ -1,10 +1,10 @@
-🧠 Shadow SOP
+# 🧠 Shadow SOP
 
 AI-powered Operational Intelligence built with Google Gemma 4
 
 Automatically reconstruct hidden business workflows from WhatsApp chats, voice notes, and invoices using multi-document reasoning.
 
-🚀 Overview
+# 🚀 Overview
 
 Small businesses rarely document how work actually happens.
 
