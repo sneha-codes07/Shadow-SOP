@@ -1,168 +1,180 @@
-# Shadow SOP
-### Discover how your business actually works.
+🧠 Shadow SOP
 
-Shadow SOP is an AI-powered business intelligence system built for the **Google Gemma 4 Buildathon**.
+AI-powered Operational Intelligence built with Google Gemma 4
 
-Instead of asking businesses to manually document Standard Operating Procedures (SOPs), Shadow SOP reconstructs the **actual workflow** by analyzing scattered operational data such as:
+Automatically reconstruct hidden business workflows from WhatsApp chats, voice notes, and invoices using multi-document reasoning.
 
-- 💬 WhatsApp conversations
-- 🎙 Voice note transcripts
-- 📄 Invoice/OCR records
+🚀 Overview
 
-Using Gemma's reasoning capabilities, it cross-references multiple unstructured sources, identifies hidden bottlenecks, and automatically generates optimized SOPs along with actionable business insights.
+Small businesses rarely document how work actually happens.
 
----
+Instead, knowledge is scattered across:
 
-# Problem
+💬 WhatsApp conversations
+🎙 Voice notes
+📄 Invoices
+👥 Employee discussions
 
-Small businesses rarely have documented workflows.
+This leads to:
 
-Critical business knowledge remains hidden inside:
+Incorrect inventory decisions
+Production delays
+Profit leakage
+Machine failures
+Human errors
+Lost operational knowledge
 
-- WhatsApp chats
-- Phone calls
-- Voice notes
-- Bills & invoices
-- Employee conversations
+Shadow SOP uses Gemma 4's reasoning capabilities to reconstruct the actual workflow—not the ideal one—and automatically generates a structured Standard Operating Procedure (SOP), identifies operational bottlenecks, and recommends automation opportunities.
 
-As businesses grow, this causes:
+🎥 Demo
 
-- Inventory mistakes
-- Delayed production
-- Revenue leakage
-- Human errors
-- Knowledge loss
+(Replace these placeholders after taking screenshots.)
 
----
+Landing	Upload	Dashboard
 
-# Solution
+	
+	
+✨ Features
 
-Shadow SOP reconstructs the real operational process from business communications.
+✅ Multi-document reasoning
 
-Instead of asking:
+✅ Workflow reconstruction
 
-> "How do you work?"
+✅ SOP generation
 
-it asks
+✅ Business bottleneck detection
 
-> "What actually happened?"
+✅ Automation recommendations
 
-Gemma analyzes multiple documents simultaneously and builds:
+✅ Reality Check dashboard
 
-- Actual Workflow Timeline
-- Reality Check
-- Generated SOP
-- Business Bottlenecks
-- Automation Opportunities
+✅ Multilingual UI
 
----
+🇬🇧 English
+🇮🇳 हिन्दी
+🇧🇩 বাংলা
 
-# Features
+✅ Interactive simulation
 
-- Multi-document reasoning
-- WhatsApp chat analysis
-- Voice transcript analysis
-- Invoice analysis
-- SOP generation
-- Workflow reconstruction
-- Bottleneck detection
-- Automation recommendations
-- Multilingual interface
-  - English
-  - हिन्दी
-  - বাংলা
+✅ Modern animated UI
 
----
+💡 The Idea
 
-# Demo Workflow
+Instead of asking a business:
 
-1. Select language
-2. Load business logs
-3. Analyze documents
-4. Cross-reference information
-5. Generate workflow
-6. Detect operational failures
-7. Produce optimized SOP
-8. Suggest automation improvements
+"Tell us your SOP."
 
----
+Shadow SOP asks:
 
-# Tech Stack
+"Show us what actually happened."
 
-- HTML
-- CSS
-- JavaScript
-- OGL WebGL
-- Gemma 4 (concept integration)
-- Kaggle Notebook
+Gemma cross-references multiple business documents and reconstructs the hidden operational chain.
 
----
+Example:
 
-# Example Business Scenario
+WhatsApp
+      │
+      ▼
+Voice Notes
+      │
+      ▼
+Invoices
+      │
+      ▼
+Gemma 4 Reasoning
+      │
+      ▼
+Workflow Timeline
+      │
+      ├── Reality Check
+      ├── SOP Generation
+      ├── Bottleneck Detection
+      └── Automation Suggestions
+🏢 Example Scenario
 
-A hoodie printing business accepts an order for 50 units.
+A custom apparel business receives an urgent order for 50 hoodies.
 
-Gemma discovers that:
+Gemma discovers:
 
-- Inventory wasn't checked
-- Stock was unavailable
-- Retail purchases doubled costs
-- Production was rushed
-- Machine overheated
-- Inventory was damaged
-- Customer received only 45 units
+❌ Inventory wasn't verified
 
-Instead of simply summarizing documents, Shadow SOP reconstructs the entire operational chain and identifies why the business lost money.
+↓
 
----
+❌ Production stopped
 
-# Why Gemma?
+↓
 
-Gemma's reasoning enables Shadow SOP to:
+❌ Emergency retail purchases doubled costs
 
-- Cross-reference multiple business documents
-- Infer hidden workflow dependencies
-- Detect operational inconsistencies
-- Generate structured SOPs from unstructured data
-- Produce multilingual business insights
+↓
 
----
+❌ Heater overheated
 
-# Future Improvements
+↓
 
-- Direct WhatsApp import
-- PDF upload support
-- OCR pipeline
-- Voice-to-text integration
-- Inventory API integration
-- ERP integrations
-- Real-time workflow monitoring
+❌ Products were damaged
 
----
+↓
 
-# Repository Structure
+❌ Customer received only 45 units
 
-```
-ShadowSOP/
+↓
+
+✅ Shadow SOP identifies the root causes and generates an improved workflow.
+
+🧠 How Gemma 4 Powers Shadow SOP
+
+Gemma is used for:
+
+Cross-document reasoning
+Event correlation
+Workflow reconstruction
+SOP generation
+Bottleneck analysis
+Insight generation
+Multilingual support
+
+Rather than summarizing documents individually, Gemma connects information across multiple sources to infer the real sequence of business events.
+
+⚙️ Tech Stack
+Technology	Purpose
+HTML5	Interface
+CSS3	Styling
+JavaScript	Logic
+OGL	WebGL Background
+Kaggle Notebook	Deployment
+Google Gemma 4	AI Reasoning
+📂 Project Structure
+Shadow-SOP
 │
 ├── notebook.ipynb
 ├── README.md
-└── assets/
-```
+├── assets
+│   ├── landing.png
+│   ├── upload.png
+│   ├── dashboard.png
+│   └── banner.png
+🎯 Future Roadmap
+📂 Real file upload support
+🎙 Voice-to-text pipeline
+📄 OCR invoice extraction
+📱 WhatsApp integration
+☁ Cloud deployment
+📊 Analytics dashboard
+🤖 ERP integrations
+🔔 Real-time monitoring
+👩‍💻 Author
 
----
+Sneha Sahu
 
-# Author
-
-**Sneha Sahu**
-
-B.Tech CSE Student
+B.Tech Computer Science Engineering
 
 Techno India University
 
-GitHub:
+GitHub
+
 https://github.com/sneha-codes07
 
----
+🏆 Google Gemma 4 Buildathon
 
-Built for the **Google Gemma 4 Buildathon** 🚀
+Built as part of the Google Gemma 4 Buildathon to demonstrate how multimodal reasoning can uncover hidden operational knowledge and transform unstructured business data into actionable intelligence.
